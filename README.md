@@ -65,11 +65,11 @@ Training - Contains 22,000 images of each class. Contains most of the available 
 
 The model consists of three convolution layers, three pooling layers, one flatten layer and two dense layers.
 
-![model_layers](http://url/to/img.png)
+![model_layers](https://github.com/BilkaDev/ml_image_recognition/blob/main/docs/model_layers.png)
 
 # Model training
 
-![model training](https://github.com/BilkaDev/ml_image_recognition/blob/main/docs/model_layers.png)
+![model training](https://github.com/BilkaDev/ml_image_recognition/blob/main/docs/model_traning.png)
 
 Training was stopped early (early stopping) after the 24th epoch, with the restoration of the model weights from the
 best epoch, which was the 19th epoch.
